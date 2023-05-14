@@ -13,4 +13,5 @@
 
 - Umi@4新坑，在 **app.tsx / request** （[app.tsx](src%2Fapp.tsx)）修改前端统一请求地址  
 `由 baseUrl 改为 baseURL`
-- 
+- 在 **app.tsx / request** （[app.tsx](src%2Fapp.tsx)）为前端请求开启cookie状态保留
+- 在[requestErrorConfig.ts](src%2FrequestErrorConfig.ts)中删除每次请求都会携带的token字段
