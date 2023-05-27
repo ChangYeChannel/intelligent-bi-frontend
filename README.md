@@ -15,3 +15,5 @@
 `由 baseUrl 改为 baseURL`
 - 在 **app.tsx / request** （[app.tsx](src%2Fapp.tsx)）为前端请求开启cookie状态保留
 - 在[requestErrorConfig.ts](src%2FrequestErrorConfig.ts)中删除每次请求都会携带的token字段
+- 使用ECharts进行图表展示的时候，默认使用的是JSON数据，不可以直接将AI生成的ECharts的JS代码装入，需要在AI预设层面进行修改
+- 需要二次刷新才能显示对应头像的BUG
